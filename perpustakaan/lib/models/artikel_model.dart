@@ -16,8 +16,9 @@ class Artikel {
       title: json['title'] ?? 'Tanpa Judul',
       description: json['description'] ?? 'Tidak ada deskripsi',
       urlToImage: json['urlToImage'] ??
-          'https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg',
+          'https://share.google/abrzVLtMREXZCBYXI',
       url: json['url'] ?? '',
     );
   }
 }
+
